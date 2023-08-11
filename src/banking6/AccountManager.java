@@ -12,10 +12,11 @@ import java.io.ObjectOutputStream;
 import java.util.HashSet;
 import java.util.InputMismatchException;
 import java.util.Scanner;
+import java.util.Set;
 
 public class AccountManager {
 	Scanner scan = new Scanner(System.in);
-	HashSet<Account> accountSet = new HashSet<Account>();
+	Set<Account> accountSet = new HashSet<Account>();
 	AutoSaver as = null;
 	String searchAccount;
 
