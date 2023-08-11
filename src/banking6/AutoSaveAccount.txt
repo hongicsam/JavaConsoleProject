@@ -1,0 +1,2 @@
+NormalAccount [accountNumber=123, name=a, balance=10000, interest=2]
+HighCreditAccount [accountNumber=456, name=b, balance=15000, interest=1, creditRating=A]
