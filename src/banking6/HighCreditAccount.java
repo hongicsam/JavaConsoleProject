@@ -20,11 +20,13 @@ public class HighCreditAccount extends Account{
 
 	@Override
 	public String toString() {
-		return "HighCreditAccount [accountNumber=" + getAccountNumber() + 
-								", name=" + getName() + 
-								", balance=" + getBalance() + 
-								", interest=" + interest + 
-								", creditRating=" + creditRating + "]";
+		String str = String.format("HighCreditAccount [accountNumber=%s, name=%s, balance=%d, interest=%d, creditRating=%c]", 
+				getAccountNumber(), getName(), getBalance(), interest, creditRating);
+		return str; // "HighCreditAccount [accountNumber=" + getAccountNumber() + 
+//								", name=" + getName() + 
+//								", balance=" + getBalance() + 
+//								", interest=" + interest + 
+//								", creditRating=" + creditRating + "]";
 	}
 
 	public int getInterest() {
